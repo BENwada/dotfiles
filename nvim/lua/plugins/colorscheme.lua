@@ -4,7 +4,6 @@ return {
     lazy = false,
     priority = 1000,
     opts = {
-      transparent = true, -- ここでKanagawaの背景透過を有効にする
       theme = "wave", -- (オプション) wave, dragon, lotus から選択可能
     },
     config = function(_, opts)
