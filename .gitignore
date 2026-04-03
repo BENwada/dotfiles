@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# backup
+*.bak
+
+# swap
+*.swp
+
+# secrets
+secrets.lua
+.env
+.env.local
+
+# lazy cache
+lazy-lock.json.bak
