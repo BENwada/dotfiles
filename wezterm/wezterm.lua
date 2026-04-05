@@ -7,7 +7,7 @@ config.automatically_reload_config = true
 config.font_size = 14.0
 config.line_height = 1.1
 config.use_ime = true
-config.window_background_opacity = 0.8
+config.window_background_opacity = 0.75
 config.macos_window_background_blur = 10
 config.font = wezterm.font_with_fallback({
 	"Fira Code", -- 1. 英数字とリガチャ用（メイン）
