@@ -11,11 +11,13 @@ config.window_background_opacity = 0.75
 config.macos_window_background_blur = 10
 config.font = wezterm.font_with_fallback({
 	"Fira Code", -- 1. 英数字とリガチャ用（メイン）
+	"Symbols Nerd Font Mono",
 	"PlemolJP NF", -- 2. 日本語用（第一候補）
 	"Cica", -- 3. 記号や予備の日本語用
 })
 config.initial_cols = 120
 config.initial_rows = 40
+config.use_cap_height_to_scale_fallback_fonts = true
 
 ----------------------------------------------------
 -- Tab & Status Line 設定
