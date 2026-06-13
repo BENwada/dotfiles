@@ -11,9 +11,8 @@ config.window_background_opacity = 0.75
 config.macos_window_background_blur = 10
 config.font = wezterm.font_with_fallback({
 	"Fira Code", -- 1. 英数字とリガチャ用（メイン）
-	"Symbols Nerd Font Mono",
-	"PlemolJP NF", -- 2. 日本語用（第一候補）
-	"Cica", -- 3. 記号や予備の日本語用
+	"Symbols Nerd Font Mono", -- 2. アイコン（Nerd Font グリフ）
+	"PlemolJP Console NF", -- 3. 日本語用（等幅・Nerd内蔵。旧"PlemolJP NF"は実在せず無視されていた）
 })
 config.initial_cols = 120
 config.initial_rows = 40
