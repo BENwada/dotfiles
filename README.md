@@ -14,5 +14,9 @@ ln -s ~/.dotfiles/wezterm/keybinds.lua ~/.config/wezterm/keybinds.lua
 
 ln -s ~/.dotfiles/ghostty ~/.config/ghostty
 
+ln -s ~/.dotfiles/zed/settings.json ~/.config/zed/settings.json
+
+ln -s ~/.dotfiles/zed/keymap.json ~/.config/zed/keymap.json
+
 既存削除
 rm -rf ~/.config/ghostty

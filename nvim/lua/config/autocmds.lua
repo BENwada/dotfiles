@@ -22,26 +22,3 @@ vim.api.nvim_create_autocmd("ColorScheme", {
     end
   end,
 })
-
--- vim.api.nvim_create_autocmd("BufWritePre", {
---   -- 対象拡張子を限定
---   pattern = { "*.ts", "*.tsx", "*.js", "*.jsx", "*.json", "*.jsonc" },
---   callback = function()
---     -- 現在のバッファで biome が動いているか確認
---     local clients = vim.lsp.get_clients({ name = "biome", bufnr = 0 })
---     if #clients > 0 then
---       vim.lsp.buf.code_action({
---         context = {
---           diagnostics = vim.diagnostic.get(0), -- 必須フィールド
---           only = {
---             -- ここを必ず「大文字」を含めた正しい形式にする
---             "source.fixAll.biome",
---             "source.organizeImports.biome",
---             "quickfix.biome.useSortedClasses",
---           },
---         },
---         apply = true,
---       })
---     end
---   end,
--- })
